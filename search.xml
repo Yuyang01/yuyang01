@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[Mac中word文件闪退后恢复]]></title>
+    <url>%2F2018%2F06%2F24%2FMac%E4%B8%ADword%E6%96%87%E4%BB%B6%E9%97%AA%E9%80%80%E5%90%8E%E6%81%A2%E5%A4%8D%2F</url>
+    <content type="text"><![CDATA[关于遇到mac中的word闪退的问题，目前可能是由于兼容性的问题。如果遇到文件无法恢复，根据知乎大神!的帖子可以尝试： ##方案： 打开finder 按cmd+shift+g,打开文件夹路径输入框 输入路径：（1）~/Library/Containers/com.microsoft.Word/Data/Library/Preferences/AutoRecovery/或者（2）~/Library/Containers/com.microsoft.Word/Data/Documents 找到之前丢失的文档了，但是点击后发现打不开，提醒文件格式与文件扩展名不符。不要急，将后缀改成.doc 打开文档，按照自己的心意继续编辑或者另存为.docx]]></content>
+      <categories>
+        <category>办公软件</category>
+      </categories>
+      <tags>
+        <tag>word</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[实验数据不准确的问题]]></title>
     <url>%2F2018%2F06%2F16%2F%E5%AE%9E%E9%AA%8C%E6%95%B0%E6%8D%AE%E4%B8%8D%E5%87%86%E7%A1%AE%2F</url>
     <content type="text"><![CDATA[为什么，实验的数据和想象的差别那么大？ 现在才理解，什么叫：-实验的结果属于别人都信，除了自己不信；-理论的结果属于自己相信，别人都不会信。 发自内心的体会到这句话的内涵。]]></content>
@@ -14,7 +25,7 @@
   <entry>
     <title><![CDATA[我的第一篇博客]]></title>
     <url>%2F2018%2F06%2F16%2F%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2%2F</url>
-    <content type="text"><![CDATA[以上是文章摘要 var options = {"narrow":false,"autoplay":true,"showlrc":3,"mode":"random","music":[{"title":"平凡之路","author":"朴树","url":"http://og9ocpmwk.bkt.clouddn.com/%E5%B9%B3%E5%87%A1%E4%B9%8B%E8%B7%AF.mp3","pic":"https://ogd99kckh.qnssl.com/1.jpg","lrc":"http://og9ocpmwk.bkt.clouddn.com/%E5%B9%B3%E5%87%A1%E4%B9%8B%E8%B7%AF.txt"},{"title":"野子","author":"苏运莹","url":"http://og9ocpmwk.bkt.clouddn.com/01%20%E9%87%8E%E5%AD%90.m4a","pic":"http://og9ocpmwk.bkt.clouddn.com/%E9%87%8E%E5%AD%90.jpg","lrc":"https://ogd99kckh.qnssl.com/%E9%87%8E%E5%AD%90.txt"}]}; options.element = document.getElementById("aplayer-jkHARswn"); var ap = new APlayer(options); window.aplayers || (window.aplayers = []); window.aplayers.push(ap); 以下是余下全文]]></content>
+    <content type="text"><![CDATA[以上是文章摘要 var options = {"narrow":false,"autoplay":true,"showlrc":3,"mode":"random","music":[{"title":"平凡之路","author":"朴树","url":"http://og9ocpmwk.bkt.clouddn.com/%E5%B9%B3%E5%87%A1%E4%B9%8B%E8%B7%AF.mp3","pic":"https://ogd99kckh.qnssl.com/1.jpg","lrc":"http://og9ocpmwk.bkt.clouddn.com/%E5%B9%B3%E5%87%A1%E4%B9%8B%E8%B7%AF.txt"},{"title":"野子","author":"苏运莹","url":"http://og9ocpmwk.bkt.clouddn.com/01%20%E9%87%8E%E5%AD%90.m4a","pic":"http://og9ocpmwk.bkt.clouddn.com/%E9%87%8E%E5%AD%90.jpg","lrc":"https://ogd99kckh.qnssl.com/%E9%87%8E%E5%AD%90.txt"}]}; options.element = document.getElementById("aplayer-XCZvQaWH"); var ap = new APlayer(options); window.aplayers || (window.aplayers = []); window.aplayers.push(ap); 以下是余下全文]]></content>
       <categories>
         <category>Linux</category>
       </categories>
