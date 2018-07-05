@@ -8,8 +8,24 @@
     <atom:link href="/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>by</description>
-    <pubDate>Sun, 24 Jun 2018 15:35:05 GMT</pubDate>
+    <pubDate>Thu, 05 Jul 2018 13:03:57 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>Update your `Model` call to the Keras 2 API</title>
+      <link>http://yuyang01.github.io/2018/07/05/Keras%E6%8A%A5%E9%94%99/</link>
+      <guid>http://yuyang01.github.io/2018/07/05/Keras%E6%8A%A5%E9%94%99/</guid>
+      <pubDate>Thu, 05 Jul 2018 13:02:12 GMT</pubDate>
+      <description>
+      
+        &lt;p&gt;我今天在调试代码的时候发现了这样一个警告，虽然对程序运行没什么大的影响，但是百度居然搜不到答案，这里我查了一点资料，我用的是keras 2，根据&lt;a href=&quot;https://blog.csdn.net/w5688414/article/details/79130050&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;CSDN博客&lt;/a&gt;!的帖子&lt;br&gt;可以尝试：&lt;br&gt;
+      
+      </description>
+      
+      <content:encoded><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>我今天在调试代码的时候发现了这样一个警告，虽然对程序运行没什么大的影响，但是百度居然搜不到答案，这里我查了一点资料，我用的是keras 2，根据<a href="https://blog.csdn.net/w5688414/article/details/79130050" target="_blank" rel="noopener">CSDN博客</a>!的帖子<br>可以尝试：<br><a id="more"></a></p><h2 id="方案"><a href="#方案" class="headerlink" title="方案"></a>方案</h2><ol><li><p>警告信息：</p><blockquote><p>HARRISON_data.py:114: UserWarning: Update your <code>Model</code> call to the Keras 2 API: <code>Model(outputs=Tensor(&quot;lo..., inputs=[&lt;tf.Tenso...)</code><br>output=loss)</p></blockquote></li><li><p>源代码为：</p><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">model = Model(</span><br><span class="line">        input=[positive_item_input, negative_item_input, user_input],</span><br><span class="line">        output=loss)</span><br><span class="line"><span class="keyword">print</span> s</span><br></pre></td></tr></table></figure></li><li><p>只需要修改为：</p><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">model = Model(</span><br><span class="line">        inputs=[positive_item_input, negative_item_input, user_input],</span><br><span class="line">        outputs=loss)</span><br></pre></td></tr></table></figure></li></ol><p>4.没错，加一个s就不报警告了</p>]]></content:encoded>
+      
+      <comments>http://yuyang01.github.io/2018/07/05/Keras%E6%8A%A5%E9%94%99/#disqus_thread</comments>
+    </item>
     
     <item>
       <title>Mac中word文件闪退后恢复</title>
@@ -55,10 +71,10 @@
       
         &lt;p&gt;以上是文章摘要&lt;/p&gt;
 &lt;p&gt;&lt;div class=&quot;aplayer&quot; data-id=&quot;22773511&quot; data-server=&quot;netease&quot; data-type=&quot;song&quot; data-mode=&quot;single&quot;&gt;&lt;/div&gt;&lt;br&gt;
-        &lt;div id=&quot;aplayer-TnipCdKe&quot; class=&quot;aplayer aplayer-tag-marker&quot; style=&quot;margin-bottom: 20px;&quot;&gt;&lt;/div&gt;
+        &lt;div id=&quot;aplayer-xitZrPey&quot; class=&quot;aplayer aplayer-tag-marker&quot; style=&quot;margin-bottom: 20px;&quot;&gt;&lt;/div&gt;
 			  &lt;script&gt;
 				  var options = {&quot;narrow&quot;:false,&quot;autoplay&quot;:true,&quot;showlrc&quot;:3,&quot;mode&quot;:&quot;random&quot;,&quot;music&quot;:[{&quot;title&quot;:&quot;平凡之路&quot;,&quot;author&quot;:&quot;朴树&quot;,&quot;url&quot;:&quot;http://og9ocpmwk.bkt.clouddn.com/%E5%B9%B3%E5%87%A1%E4%B9%8B%E8%B7%AF.mp3&quot;,&quot;pic&quot;:&quot;https://ogd99kckh.qnssl.com/1.jpg&quot;,&quot;lrc&quot;:&quot;http://og9ocpmwk.bkt.clouddn.com/%E5%B9%B3%E5%87%A1%E4%B9%8B%E8%B7%AF.txt&quot;},{&quot;title&quot;:&quot;野子&quot;,&quot;author&quot;:&quot;苏运莹&quot;,&quot;url&quot;:&quot;http://og9ocpmwk.bkt.clouddn.com/01%20%E9%87%8E%E5%AD%90.m4a&quot;,&quot;pic&quot;:&quot;http://og9ocpmwk.bkt.clouddn.com/%E9%87%8E%E5%AD%90.jpg&quot;,&quot;lrc&quot;:&quot;https://ogd99kckh.qnssl.com/%E9%87%8E%E5%AD%90.txt&quot;}]};
-				  options.element = document.getElementById(&quot;aplayer-TnipCdKe&quot;);
+				  options.element = document.getElementById(&quot;aplayer-xitZrPey&quot;);
 				  var ap = new APlayer(options);
 			    window.aplayers || (window.aplayers = []);
 				  window.aplayers.push(ap);
@@ -66,7 +82,7 @@
       
       </description>
       
-      <content:encoded><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>以上是文章摘要</p><p><div class="aplayer" data-id="22773511" data-server="netease" data-type="song" data-mode="single"></div><br>        <div id="aplayer-TnipCdKe" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;"></div>  <script>  var options = {"narrow":false,"autoplay":true,"showlrc":3,"mode":"random","music":[{"title":"平凡之路","author":"朴树","url":"http://og9ocpmwk.bkt.clouddn.com/%E5%B9%B3%E5%87%A1%E4%B9%8B%E8%B7%AF.mp3","pic":"https://ogd99kckh.qnssl.com/1.jpg","lrc":"http://og9ocpmwk.bkt.clouddn.com/%E5%B9%B3%E5%87%A1%E4%B9%8B%E8%B7%AF.txt"},{"title":"野子","author":"苏运莹","url":"http://og9ocpmwk.bkt.clouddn.com/01%20%E9%87%8E%E5%AD%90.m4a","pic":"http://og9ocpmwk.bkt.clouddn.com/%E9%87%8E%E5%AD%90.jpg","lrc":"https://ogd99kckh.qnssl.com/%E9%87%8E%E5%AD%90.txt"}]};  options.element = document.getElementById("aplayer-TnipCdKe");  var ap = new APlayer(options);    window.aplayers || (window.aplayers = []);  window.aplayers.push(ap);  </script><br><a id="more"></a></p><div class="video-container"><iframe src="https://www.youtube.com/embed/YES16mVB0lQ?rel=0&amp;showinfo=0" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe></div><p>以下是余下全文</p>]]></content:encoded>
+      <content:encoded><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>以上是文章摘要</p><p><div class="aplayer" data-id="22773511" data-server="netease" data-type="song" data-mode="single"></div><br>        <div id="aplayer-xitZrPey" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;"></div>  <script>  var options = {"narrow":false,"autoplay":true,"showlrc":3,"mode":"random","music":[{"title":"平凡之路","author":"朴树","url":"http://og9ocpmwk.bkt.clouddn.com/%E5%B9%B3%E5%87%A1%E4%B9%8B%E8%B7%AF.mp3","pic":"https://ogd99kckh.qnssl.com/1.jpg","lrc":"http://og9ocpmwk.bkt.clouddn.com/%E5%B9%B3%E5%87%A1%E4%B9%8B%E8%B7%AF.txt"},{"title":"野子","author":"苏运莹","url":"http://og9ocpmwk.bkt.clouddn.com/01%20%E9%87%8E%E5%AD%90.m4a","pic":"http://og9ocpmwk.bkt.clouddn.com/%E9%87%8E%E5%AD%90.jpg","lrc":"https://ogd99kckh.qnssl.com/%E9%87%8E%E5%AD%90.txt"}]};  options.element = document.getElementById("aplayer-xitZrPey");  var ap = new APlayer(options);    window.aplayers || (window.aplayers = []);  window.aplayers.push(ap);  </script><br><a id="more"></a></p><div class="video-container"><iframe src="https://www.youtube.com/embed/YES16mVB0lQ?rel=0&amp;showinfo=0" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe></div><p>以下是余下全文</p>]]></content:encoded>
       
       <comments>http://yuyang01.github.io/2018/06/16/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/#disqus_thread</comments>
     </item>
