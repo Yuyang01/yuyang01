@@ -8,8 +8,27 @@
     <atom:link href="/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>by</description>
-    <pubDate>Fri, 06 Jul 2018 21:47:17 GMT</pubDate>
+    <pubDate>Mon, 09 Jul 2018 16:13:34 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>谷歌网盘GPU的使用</title>
+      <link>http://yuyang01.github.io/2018/07/07/%E8%B0%B7%E6%AD%8C%E7%BD%91%E7%9B%98GPU%E7%9A%84%E4%BD%BF%E7%94%A8/</link>
+      <guid>http://yuyang01.github.io/2018/07/07/%E8%B0%B7%E6%AD%8C%E7%BD%91%E7%9B%98GPU%E7%9A%84%E4%BD%BF%E7%94%A8/</guid>
+      <pubDate>Sat, 07 Jul 2018 16:12:12 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot; cla
+        
+      
+      </description>
+      
+      <content:encoded><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>谷歌目前提供了免费的gpu， 关于如何在谷歌上传本地文件，在colab中直接读取，可以参考</p><blockquote><p><a href="https://stackoverflow.com/questions/46986398/import-data-into-google-colaboratory" target="_blank" rel="noopener">链接</a></p></blockquote>]]></content:encoded>
+      
+      <comments>http://yuyang01.github.io/2018/07/07/%E8%B0%B7%E6%AD%8C%E7%BD%91%E7%9B%98GPU%E7%9A%84%E4%BD%BF%E7%94%A8/#disqus_thread</comments>
+    </item>
     
     <item>
       <title>Update your `Model` call to the Keras 2 API</title>
@@ -71,10 +90,10 @@
       
         &lt;p&gt;以上是文章摘要&lt;/p&gt;
 &lt;p&gt;&lt;div class=&quot;aplayer&quot; data-id=&quot;22773511&quot; data-server=&quot;netease&quot; data-type=&quot;song&quot; data-mode=&quot;single&quot;&gt;&lt;/div&gt;&lt;br&gt;
-        &lt;div id=&quot;aplayer-eFwsAHel&quot; class=&quot;aplayer aplayer-tag-marker&quot; style=&quot;margin-bottom: 20px;&quot;&gt;&lt;/div&gt;
+        &lt;div id=&quot;aplayer-sSeiZqWU&quot; class=&quot;aplayer aplayer-tag-marker&quot; style=&quot;margin-bottom: 20px;&quot;&gt;&lt;/div&gt;
 			  &lt;script&gt;
 				  var options = {&quot;narrow&quot;:false,&quot;autoplay&quot;:true,&quot;showlrc&quot;:3,&quot;mode&quot;:&quot;random&quot;,&quot;music&quot;:[{&quot;title&quot;:&quot;平凡之路&quot;,&quot;author&quot;:&quot;朴树&quot;,&quot;url&quot;:&quot;http://og9ocpmwk.bkt.clouddn.com/%E5%B9%B3%E5%87%A1%E4%B9%8B%E8%B7%AF.mp3&quot;,&quot;pic&quot;:&quot;https://ogd99kckh.qnssl.com/1.jpg&quot;,&quot;lrc&quot;:&quot;http://og9ocpmwk.bkt.clouddn.com/%E5%B9%B3%E5%87%A1%E4%B9%8B%E8%B7%AF.txt&quot;},{&quot;title&quot;:&quot;野子&quot;,&quot;author&quot;:&quot;苏运莹&quot;,&quot;url&quot;:&quot;http://og9ocpmwk.bkt.clouddn.com/01%20%E9%87%8E%E5%AD%90.m4a&quot;,&quot;pic&quot;:&quot;http://og9ocpmwk.bkt.clouddn.com/%E9%87%8E%E5%AD%90.jpg&quot;,&quot;lrc&quot;:&quot;https://ogd99kckh.qnssl.com/%E9%87%8E%E5%AD%90.txt&quot;}]};
-				  options.element = document.getElementById(&quot;aplayer-eFwsAHel&quot;);
+				  options.element = document.getElementById(&quot;aplayer-sSeiZqWU&quot;);
 				  var ap = new APlayer(options);
 			    window.aplayers || (window.aplayers = []);
 				  window.aplayers.push(ap);
@@ -82,25 +101,9 @@
       
       </description>
       
-      <content:encoded><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>以上是文章摘要</p><p><div class="aplayer" data-id="22773511" data-server="netease" data-type="song" data-mode="single"></div><br>        <div id="aplayer-eFwsAHel" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;"></div>  <script>  var options = {"narrow":false,"autoplay":true,"showlrc":3,"mode":"random","music":[{"title":"平凡之路","author":"朴树","url":"http://og9ocpmwk.bkt.clouddn.com/%E5%B9%B3%E5%87%A1%E4%B9%8B%E8%B7%AF.mp3","pic":"https://ogd99kckh.qnssl.com/1.jpg","lrc":"http://og9ocpmwk.bkt.clouddn.com/%E5%B9%B3%E5%87%A1%E4%B9%8B%E8%B7%AF.txt"},{"title":"野子","author":"苏运莹","url":"http://og9ocpmwk.bkt.clouddn.com/01%20%E9%87%8E%E5%AD%90.m4a","pic":"http://og9ocpmwk.bkt.clouddn.com/%E9%87%8E%E5%AD%90.jpg","lrc":"https://ogd99kckh.qnssl.com/%E9%87%8E%E5%AD%90.txt"}]};  options.element = document.getElementById("aplayer-eFwsAHel");  var ap = new APlayer(options);    window.aplayers || (window.aplayers = []);  window.aplayers.push(ap);  </script><br><a id="more"></a></p><div class="video-container"><iframe src="https://www.youtube.com/embed/YES16mVB0lQ?rel=0&amp;showinfo=0" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe></div><p>以下是余下全文</p>]]></content:encoded>
+      <content:encoded><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>以上是文章摘要</p><p><div class="aplayer" data-id="22773511" data-server="netease" data-type="song" data-mode="single"></div><br>        <div id="aplayer-sSeiZqWU" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;"></div>  <script>  var options = {"narrow":false,"autoplay":true,"showlrc":3,"mode":"random","music":[{"title":"平凡之路","author":"朴树","url":"http://og9ocpmwk.bkt.clouddn.com/%E5%B9%B3%E5%87%A1%E4%B9%8B%E8%B7%AF.mp3","pic":"https://ogd99kckh.qnssl.com/1.jpg","lrc":"http://og9ocpmwk.bkt.clouddn.com/%E5%B9%B3%E5%87%A1%E4%B9%8B%E8%B7%AF.txt"},{"title":"野子","author":"苏运莹","url":"http://og9ocpmwk.bkt.clouddn.com/01%20%E9%87%8E%E5%AD%90.m4a","pic":"http://og9ocpmwk.bkt.clouddn.com/%E9%87%8E%E5%AD%90.jpg","lrc":"https://ogd99kckh.qnssl.com/%E9%87%8E%E5%AD%90.txt"}]};  options.element = document.getElementById("aplayer-sSeiZqWU");  var ap = new APlayer(options);    window.aplayers || (window.aplayers = []);  window.aplayers.push(ap);  </script><br><a id="more"></a></p><div class="video-container"><iframe src="https://www.youtube.com/embed/YES16mVB0lQ?rel=0&amp;showinfo=0" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe></div><p>以下是余下全文</p>]]></content:encoded>
       
       <comments>http://yuyang01.github.io/2018/06/16/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/#disqus_thread</comments>
-    </item>
-    
-    <item>
-      <title>Hello World</title>
-      <link>http://yuyang01.github.io/2018/06/16/hello-world/</link>
-      <guid>http://yuyang01.github.io/2018/06/16/hello-world/</guid>
-      <pubDate>Sat, 16 Jun 2018 20:36:35 GMT</pubDate>
-      <description>
-      
-        &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;documentation&lt;/a&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;a href=&quot;https://hexo.io/docs/troubleshooting.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;troubleshooting&lt;/a&gt; or you can ask me on &lt;a href=&quot;https://github.com/hexojs/hexo/issues&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;GitHub&lt;/a&gt;.&lt;br&gt;
-      
-      </description>
-      
-      <content:encoded><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.<br><a id="more"></a></p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content:encoded>
-      
-      <comments>http://yuyang01.github.io/2018/06/16/hello-world/#disqus_thread</comments>
     </item>
     
   </channel>
